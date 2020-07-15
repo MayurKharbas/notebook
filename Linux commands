@@ -1,13 +1,14 @@
-# Files and Navigating
+Files and Navigating
+================================================================
 
-ls			-	list all files/folders on current dir
+ls		-	list all files/folders on current dir
 ls -l		-	formatted listing
 ls -al		- 	formatted listing with hidden files
 cd dir		-	change dir to file
 cd ..		-	change to parent dir
 cd ../dir	-	change to dir in parent dir
-cd			-	home dir
-pwd			-	print working dir
+cd		-	home dir
+pwd		-	print working dir
 mkdir dir	-	create directory
 rm file		-	delete file
 rm -f dir	-	force remove file
@@ -22,4 +23,49 @@ touch file	-	create or update file
 cat file	-	output contents of file
 cat > file	-	write standard i/p to file
 cat >> file	-	append standard i/p to file
-tail -f file-	output contents of file as it grows 
+tail -f file	-	output contents of file as it grows 
+
+
+Networking
+================================================================
+
+ping host
+traceroute host
+mtr host
+whois domain
+dig domain		-	get DNS for domain
+dig -x host		-	reserve lookup host
+wget file		-	download file
+wget -c file		-	continue stopped download
+wget -r url		-	recursively download files
+
+curl url		-	outputs webpage from url
+curl -o abc.html url	-	writes page to abc.html
+
+ssh user@host		-	connect to host as user
+ssh -p port user@host	-	connect using port
+ssh -D user@host	-	connect and use bind port
+
+
+Processes
+================================================================
+
+ps		-	display currently active processes
+ps -aux		-	detailed output
+kill pid	-	kill process with process-id
+killall proc	-	kill all processes named proc
+
+
+System Info
+================================================================
+
+date		-	show current date/time
+uptime		-	show uptime
+whoami		-	who you're logged in as
+w		-	display who is online
+cat /proc/cpinfo-	display cpu info
+cat /proc/meminfo-	memory info
+
+
+
+
