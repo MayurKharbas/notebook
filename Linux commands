@@ -67,5 +67,27 @@ cat /proc/cpinfo-	display cpu info
 cat /proc/meminfo-	memory info
 
 
+Permissions
+================================================================
 
+chmod octal file-	change permissions of file
+
+  4 - read(r)
+  2 - write(w)
+  1 - execute(x)
+  order - owner/group/world
+
+  chmod 777 - rwx for everyone
+  chmod 755 - rwx for owner, rx for group world
+
+
+Some other
+================================================================
+
+man command	-	manual page for command
+locate file	-	find all instances of file
+whereis app	-	show possible locations of app
+
+grep pattern files  -	search in files for pattern
+grep -r pattern dir -	search for pattern recursively in dir
 
