@@ -1,0 +1,25 @@
+# Files and Navigating
+
+ls			-	list all files/folders on current dir
+ls -l		-	formatted listing
+ls -al		- 	formatted listing with hidden files
+cd dir		-	change dir to file
+cd ..		-	change to parent dir
+cd ../dir	-	change to dir in parent dir
+cd			-	home dir
+pwd			-	print working dir
+mkdir dir	-	create directory
+rm file		-	delete file
+rm -f dir	-	force remove file
+rm -r dir	-	delete directory dir
+rm -rf /	-	LAUNCH NEUCLEAR BOMB
+
+cp file1 file2		-	copy file1 to file2
+mv file1 file2		-	rename file1 to file2
+mv file dir/file2	-	move file1 to dir as file2
+
+touch file	-	create or update file
+cat file	-	output contents of file
+cat > file	-	write standard i/p to file
+cat >> file	-	append standard i/p to file
+tail -f file-	output contents of file as it grows 
